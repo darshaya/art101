@@ -19,11 +19,11 @@ p{
 }
 
 #content{
-  background-color: #cccccc;
+  background-color: #a870e3;
   width: 500px;
   min-height: 300px;
   padding: 10px;
   margin: 10px;
-  border: solid 1px #444444;
+  border: dashed 1px #444444;
   font-size: 20px;
 }
