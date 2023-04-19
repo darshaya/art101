@@ -8,11 +8,14 @@ p{
     margin-left: 10px;
 }
 #content{
-    background-color: #cccccc;
+    background-color: #4444;
     width: 500px;
     min-height: 300px;
     padding: 10px;
     margin: 10px;
-    border: solid 1px #444444;
+    border: dotted 1px #FFFF00;
     font-size: 20px;
+}
+#my-portrait {
+    width: 300px;
 }
