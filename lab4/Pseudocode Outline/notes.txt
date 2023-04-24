@@ -1,0 +1,12 @@
+Pseudocode For Everyday Task: Brushing Your Teeth
+
+Toothbrush and toothpaste
+Turn on the water
+Place toothbrush in the water
+Then add toothpaste to wet toothbrush
+    Doubledip to your liking
+Brush your teeth with toothebrush and toothpaste
+Repeat step 8 until mouth is feeling squeaky clean
+    About 2 mins 
+Spit out saliva 
+Then rinse with water 
