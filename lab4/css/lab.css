@@ -4,6 +4,52 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #e95757;
+    background-color: #fbcb0e;
   }
+  #content{
+    margin: 10px;
+    padding:30px;
+    border: solid 1px #05f491;
+    background-color: #e92bb0;
+  }
+
+  #tictactoe {
+    width: 500px;
+  margin-left: 300px;
+ 
+}
+#brushingteeth {
+  width: 500px;
+  
+}
+
+
+body {
+  background-color: turquoise;
+}
+h1 {
+  color: blue;
+  font-size: 40px;
+}
+h2 {
+  color: purple;
+  font-size: 40px;
+  
+
+}
+h3 {
+  color: purple;
+  font-size: 40px;
+}
+h4 {
+  color: purple;
+  font-size: 40px;
+}
+h5 {
+  color: purple;
+  font-size: 40px;
+}
+p {
+  color: red;
+}
