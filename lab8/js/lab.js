@@ -12,17 +12,17 @@ console.log("Is 2 even?", isEven(2));
 var makeArray = [100, 81, 4, 16, 42, 144, 10000]
 console.log("My array", makeArray);
 
-var result = makeArray.map(isEven);
+var resultEven = makeArray.map(isEven);
 //should return [true, false, true, true, true, true, true]
-console.log("Test of evenness of array", result);
+console.log("Test of evenness of array", resultEven);
 
-var result = makeArray.map(function(x){
+var resultSquared = makeArray.map(function(x){
     return x ** 0.5;
 })
 //should return [10,9,2,4,6.48074069840786, 12, 100]
-console.log("Squareroot of array", result);
+console.log("Squareroot of array", resultSquared);
 
-var mapResults = ["This is an array I made: " + makeArray + ".</br/>" + "Test whether or not each element is even: " + result + ".</br>" ];
+var mapResults = ["This is an array I made: " + makeArray + ".</br/>" + "Test whether or not each element is even: " + resultEven + ".</br>" +  "New values of array once square-rooted:" + resultSquared + ".</br>"];
 
 var outputEl = document.getElementById("output"); 
 outputEl.innerHTML = mapResults; // put your results here
