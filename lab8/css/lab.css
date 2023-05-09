@@ -1,0 +1,44 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 6px  #07155c; 
+    background-color: #1ac7a1;
+  }
+  #content{
+    margin: 10px;
+    padding:50px;
+    border: solid 1px #55f405;
+    background-color: #b737cb;
+    min-height: 80vh;
+  }
+ 
+  
+  h1, h2, h3, h4 {
+    font-family: 'Kavoon', 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: white;
+    margin: 0;
+  }
+  @keyframes color {
+    0%   { background: #e38111; }
+    20%  { background: #e528b9; }
+    40%  { background: #37c42a; }
+    60%  { background: #fca400; }
+    80%  { background: #e23ac1; }
+    100% { background: #1beb71; }
+  }
+  
+  body {
+    background: #33CCCC; /* Fallback */
+    animation: color 9s infinite linear;
+    text-align: center;
+    padding: 2em;
+  }
+  
