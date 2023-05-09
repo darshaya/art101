@@ -1,6 +1,63 @@
-/* this css file will only style the homepage of our site */
+/* we can use a single css file to style all the files in our wwebsite */
 
-.cat-photo {
-  margin: 10px;
-  max-width: 500px;
+/* you can pick your own background colors, text colors, and fonts */
+
+/* we can select an html element tag, in this case "body" will apply to the whole document */
+body {
+  background: #33CCCC; /* Fallback */
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
 }
+
+.god-sent-you-there {
+  margin: 10px;
+  max-width: 500px
+}
+
+/* we can have rules apply to multiple elements at the same time with commas */
+h1,h2,h3 {
+  font-family: 'Kavoon', 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: white;
+    margin: 0;
+}
+p{
+  font-family: 'Kavoon', 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: white;
+}
+
+/* and we can have rules that overlap other rules, both take effect */
+h1 {
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 200%;
+}
+
+/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #fffefe;
+    background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif)
+}
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #f3efef;
+  background-image: url(https://i.pinimg.com/originals/f5/f2/74/f5f27448c036af645c27467c789ad759.gif);
+}
+@keyframes color {
+  0%   { background: #e38111; }
+  20%  { background: #e528b9; }
+  40%  { background: #37c42a; }
+  60%  { background: #fca400; }
+  80%  { background: #e23ac1; }
+  100% { background: #e38111; }
+}
+
