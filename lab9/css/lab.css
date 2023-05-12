@@ -1,0 +1,29 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 6px #e95757;
+    background-color: pink;
+  }
+  #content{
+    margin: 10px;
+    padding:30px;
+    border: solid 1px #05f491;
+    background-color: #e59a19;
+  }
+#p1 {
+    font-style: italic;
+ letter-spacing: 1.5px;
+}
+  body {
+    background-color: rgb(244, 244, 244);
+  }
+
+  h1{
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+   h2, h3, h4 {
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+    margin: 0;
+    font-size:250%
+  }
