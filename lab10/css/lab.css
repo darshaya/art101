@@ -1,0 +1,21 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 5px rgb(196, 112, 28);
+    background-color: rgb(239, 160, 103);
+  }
+#content{
+    background-color:orange
+}
+  body {
+    background-color: rgb(180, 87, 0);
+  }
+  h1{
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+   h2, h3, h4 {
+    font-family: Chalkduster, fantasy;
+    font-weight: bold;
+    margin: 0;
+    font-size:150%
+  }
