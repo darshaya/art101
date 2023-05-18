@@ -1,0 +1,26 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 5px rgb(255, 255, 255);
+    background-color: rgb(246, 45, 203);
+  }
+
+  .special {
+    background-color: rgb(252, 81, 232);
+    border: outset 5px rgb(255, 203, 242)
+  }
+  #content{
+    background-color:pink
+}
+  body {
+    background-color: rgb(245, 132, 173);
+  }
+  h1{
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+  h2, h3, h4 {
+    font-family: Chalkduster, fantasy;
+    font-weight: bold;
+    margin: 0;
+    font-size:150%
+  }
