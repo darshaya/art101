@@ -3,9 +3,9 @@
 // Date: May 16, 2023
 
 //add a button for each section (challenge, problems, and results)
-$("#challenge").append("<button id='challenge-button'>click?</button>");
-$("#problems").append("<button id='problems-button'>Click???</button>");
-$("#results").append("<button id='results-button'>CLICK?!?!</button>");
+$("#challenge").append("<button id='challenge-button'>click me</button>");
+$("#problems").append("<button id='problems-button'>Click me pls</button>");
+$("#results").append("<button id='results-button'>CLICK ME NOW</button>");
 
 //add a click event to each button for each section. challenge:
 $("#challenge-button").click(function(){
