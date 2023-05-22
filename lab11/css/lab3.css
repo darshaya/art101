@@ -1,0 +1,52 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages /
+
+/ the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 5px rgb(255, 255, 255);
+    background-color: rgb(246, 45, 203);
+  }
+  
+  .special {
+    filter: invert(1);
+  }
+  
+  #content{
+    background-color:pink
+}
+  
+  body {
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/725/7/desktop-wallpaper-laptop-aesthetic-anime-pink-aesthetic-laptop-screen.jpg");
+    background-size: cover; /* The 'background-size' property is set to 'cover', ensuring that the image covers the entire background area of the body element. */
+    resize: both; /* The 'resize' property is set to 'both', allowing the body element to be resized in both horizontal and vertical directions. */
+    overflow: scroll; /* The 'overflow' property is set to 'scroll', adding a scrollbar to the body element for scrolling when content exceeds the visible area. */
+  }
+  
+  #heading {
+    color: white;
+  }
+  
+  #heading a {
+    color: white;
+  }
+
+
+h1{
+  font-family: Copperplate, Papyrus, fantasy;
+}
+h2, h3, h4 {
+  font-family: Chalkduster, fantasy;
+  font-weight: bold;
+  margin: 0;
+  font-size:150%
+}
+  
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 5px rgb(255, 255, 255);
+    background-color: rgb(246, 45, 203);
+    }
+  
+    
