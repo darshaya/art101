@@ -6,7 +6,7 @@
 var outputEl = document.getElementById("output");
 
 //create new element & assign to a variable
-var new1El = document.createdElement ("p");
+var new1El = document.createdElement("p");
 
 //change the html attribute of variable to say something new
 new1El.innerHTML = "Something new";
