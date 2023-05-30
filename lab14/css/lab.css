@@ -2,14 +2,14 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 5px rgb(255, 255, 255);
-    background-image: url("https://e0.pxfuel.com/wallpapers/23/572/desktop-wallpaper-artistic-pixel-art-p-pink-anime-art-pink-pc-cute-pastel-pixel-aesthetic.jpg");
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/561/115/desktop-wallpaper-pin-on-kirby.jpg");
     background-size: cover; /* The 'background-size' property is set to 'cover', ensuring that the image covers the entire background area of the body element. */
     resize: both; /* The 'resize' property is set to 'both', allowing the body element to be resized in both horizontal and vertical directions. */
     overflow: scroll; /* The 'overflow' property is set to 'scroll', adding a scrollbar to the body element for scrolling when content exceeds the visible area. */
 
   }
   #content{
-    background-color: pink
+    background-image: url("https://media.tenor.com/7wYux4drb4AAAAAC/kirby.gif");
 }
 body {
     background-color: rgb(245, 132, 173);
@@ -32,6 +32,7 @@ button {
 
 h1{
   font-family: Copperplate, Papyrus, fantasy;
+  color: white;
 }
 h2, h3, h4 {
   font-family: Chalkduster, fantasy;
