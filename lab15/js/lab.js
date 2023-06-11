@@ -14,6 +14,5 @@ $("#activate").on("click", function() {
       
     }
   })
- 
 })
 
